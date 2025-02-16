@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  background-color: #0f1a1f;
+}
+
+@layer base {
+  :root {
+    --border: 168 5% 60;
+    --success: 162 69% 39;
+    --success-foreground: 157 10% 84%;
+    --error: 348 78% 68%;
+    --error-foreground: 355 100% 97%;
+    --foreground: 157 10% 84%;
+  }
+}
